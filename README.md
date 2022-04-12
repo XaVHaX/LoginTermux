@@ -1,12 +1,12 @@
 # LoginTermux
-Login Termux Updated 2022
+Login Termux Updated 2022 Using Best Security
 
 # How To Install Termux Login
 ```shell
 $ pkg upgrade && update
 $ pkg install git neofetch python -y
-$ git clone https://github.com/XaVHaX/LoginTermux
 $ pkg install sqlite3
+$ git clone https://github.com/XaVHaX/LoginTermux
 $ pip install tabulate
 
 $ python adduser.py
