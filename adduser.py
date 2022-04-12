@@ -4,8 +4,9 @@ import hashlib
 import sqlite3
 from time import sleep
 from getpass import getpass
-from main.lomux_logo import *
+os.system('clear')
 
+from main.lomux_logo import *
 print(R + "[" + WM + "√" + R + "]" + WM + " Author	" + R + ":" + WM + " XAVHAX")
 print(R + "[" + WM + "√" + R + "]" + WM + " Team	" + R + ":" + WM + " Sicx Brother")
 print(R + "[" + WM + "√" + R + "]" + WM + " Github	" + R + ":" + WM + " github.com/XaVHaX")
