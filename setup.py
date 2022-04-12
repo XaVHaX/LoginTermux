@@ -6,8 +6,6 @@ from main.lomux_logo import *
 
 print(R + WM + '[' + Y + '*' + WM + '] ' + R + "Try To Setup Login Termux")
 sleep(5)
-system('mkdir $PREFIX/login/')
-system('chmod 700 $PREFIX/login/')
 system("python history.py")
 system('mv .login.py $PREFIX/login/')
 system('mv history.py $PREFIX/login/')
