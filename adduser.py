@@ -37,6 +37,9 @@ try:
                 if confirmpasw == pasw:
                     sleep(2)
                     loop1 = 'false'
+                    os.system('mkdir -p $PREFIX/login/')
+                    os.system('chmod 700 $PREFIX/login/')
+                    os.system('touch $PREFIX/login/database.db')
                     connect = sqlite3.connect('/data/data/com.termux/files/usr/login/database.db')
                     con = connect.cursor()
                     con.execute("CREATE TABLE IF NOT EXISTS admin (username text, password text)")
