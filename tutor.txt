@@ -13,6 +13,7 @@ $ python setup.py
 
 # Features
 $ adduser # Use this command to change username and password
+$ userinfo # Use this command to display current username
 $ changepass # Use this command to change the old password
 $ falselogin # Use this command to show list of wrong input password and username
 

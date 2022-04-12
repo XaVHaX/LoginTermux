@@ -3,8 +3,10 @@ import hashlib
 import sqlite3
 
 from time import sleep
-from main.color import *
 from getpass import getpass
+from main.lomux_logo import *
+
+print("This Is Changepass Where User Can Change Their Password")
 
 try:
 	print(G + "[" + R + "!" + G + "]" + WM + " Are You Sure Want To Change Password ?")
@@ -39,11 +41,12 @@ try:
 						connect.commit()
 						lup = 'false'
 						sleep(1)
-						print("[✓] New Password add Succesfully")
+						print(WM + '[' + G + '✓' + WM + '] ' + WM + "New Password Update Succesfully")
 					else:
-						print("[!] New Password add Failure")
-						print("[!] Make Sure Confirm Your New Password")
+						print(WM + '[' + R + '!' + WM + '] ' + WM + "New Password Update Failure")
+						print(WM + '[' + R + '!' + WM + '] ' + WM + "Make Sure Confirm Your New Password")
 						lup = 'true'
+						sleep(1)
 			else:
 				print(G + "[" + R + "!" + G + "]" + WM + " Old Password Is Incorrect, Please Try Again")
 				loop = 'true'
