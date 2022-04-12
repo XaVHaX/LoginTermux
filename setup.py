@@ -1,6 +1,7 @@
 # coding=utf-8
 from os import system
 from time import sleep
+os.system('clear')
 from main.lomux_logo import *
 
 print(R + WM + '[' + Y + '*' + WM + '] ' + R + "Try To Setup Login Termux")
