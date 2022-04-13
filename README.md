@@ -1,7 +1,7 @@
 # LoginTermux
-<img height="266" width="520" src="https://i.postimg.cc/Y9bWm6fr/Screenshot-2022-04-12-15-15-30-472-com-termux-picsay.jpg">
-<img height="520" width="342" src="https://i.postimg.cc/pr5LXzs1/Screenshot-2022-04-12-15-15-30-472-com-termux-picsaybh.jpg">
-<img height="520" width="342" src="https://i.postimg.cc/hPSKYFB5/Screenshot-2022-04-12-15-15-30-472-com-termuxvdhsvs.jpg">
+<img height="337" width="520" src="https://i.postimg.cc/Y9bWm6fr/Screenshot-2022-04-12-15-15-30-472-com-termux-picsay.jpg">
+<img height="391" width="520" src="https://i.postimg.cc/pr5LXzs1/Screenshot-2022-04-12-15-15-30-472-com-termux-picsaybh.jpg">
+<img height="391" width="520" src="https://i.postimg.cc/hPSKYFB5/Screenshot-2022-04-12-15-15-30-472-com-termuxvdhsvs.jpg">
 Login Termux Updated 2022 Using Best Security
 # How To Install Termux Login
 ```shell
